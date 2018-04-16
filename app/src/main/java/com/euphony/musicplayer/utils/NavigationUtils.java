@@ -37,10 +37,10 @@ import com.euphony.musicplayer.activities.SearchActivity;
 import com.euphony.musicplayer.activities.SettingsActivity;
 import com.euphony.musicplayer.fragments.AlbumDetailFragment;
 import com.euphony.musicplayer.fragments.ArtistDetailFragment;
-import com.euphony.musicplayer.nowplaying.Timber1;
-import com.euphony.musicplayer.nowplaying.Timber2;
-import com.euphony.musicplayer.nowplaying.Timber3;
-import com.euphony.musicplayer.nowplaying.Timber4;
+import com.euphony.musicplayer.nowplaying.Euphony1;
+import com.euphony.musicplayer.nowplaying.Euphony2;
+import com.euphony.musicplayer.nowplaying.Euphony3;
+import com.euphony.musicplayer.nowplaying.Euphony4;
 
 import java.util.ArrayList;
 
@@ -179,15 +179,15 @@ public class NavigationUtils {
     public static Fragment getFragmentForNowplayingID(String fragmentID) {
         switch (fragmentID) {
             case Constants.TIMBER1:
-                return new Timber1();
+                return new Euphony1();
             case Constants.TIMBER2:
-                return new Timber2();
+                return new Euphony2();
             case Constants.TIMBER3:
-                return new Timber3();
+                return new Euphony3();
             case Constants.TIMBER4:
-                return new Timber4();
+                return new Euphony4();
             default:
-                return new Timber1();
+                return new Euphony1();
         }
 
     }

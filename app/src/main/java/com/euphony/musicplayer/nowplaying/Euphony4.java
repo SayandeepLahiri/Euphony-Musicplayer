@@ -35,7 +35,7 @@ import com.euphony.musicplayer.utils.ImageUtils;
 
 import net.steamcrafted.materialiconlib.MaterialDrawableBuilder;
 
-public class Timber4 extends BaseNowplayingFragment {
+public class Euphony4 extends BaseNowplayingFragment {
 
     ImageView mBlurredArt;
     RecyclerView horizontalRecyclerview;

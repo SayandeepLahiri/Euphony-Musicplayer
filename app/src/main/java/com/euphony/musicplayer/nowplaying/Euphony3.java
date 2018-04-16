@@ -21,7 +21,7 @@ import android.view.ViewGroup;
 
 import com.euphony.musicplayer.R;
 
-public class Timber3 extends BaseNowplayingFragment {
+public class Euphony3 extends BaseNowplayingFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

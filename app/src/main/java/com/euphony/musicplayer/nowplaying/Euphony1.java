@@ -27,7 +27,7 @@ import com.euphony.musicplayer.utils.TimberUtils;
 
 import net.steamcrafted.materialiconlib.MaterialDrawableBuilder;
 
-public class Timber1 extends BaseNowplayingFragment {
+public class Euphony1 extends BaseNowplayingFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

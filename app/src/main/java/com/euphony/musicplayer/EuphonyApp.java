@@ -22,12 +22,12 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.utils.L;
 
-public class TimberApp extends Application {
+public class EuphonyApp extends Application {
 
 
-    private static TimberApp mInstance;
+    private static EuphonyApp mInstance;
 
-    public static synchronized TimberApp getInstance() {
+    public static synchronized EuphonyApp getInstance() {
         return mInstance;
     }
 
